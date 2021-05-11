@@ -10,8 +10,7 @@ const superHeroes = require('./super-heroes.json');
  * ]
  */
 const getDCHeroes = (heroes) => {
-  const result = heroes.filter(hero => hero.publisher == "DC Comics")
-  return result
+  //Complete the function
 }
 
 /**
@@ -29,11 +28,8 @@ const getDCHeroes = (heroes) => {
  */
 const convertCharactersToArray = (heroes) => {
 
-  heroes.forEach(hero => hero.characters.split(','))
-  // for(let i = 0; i < heroes.length; i++) {
-  //  heroes[i].characters.split(',')
-  // }
-  return heroes;
+ 
+  //Complete the function
 }
 
 /**
@@ -50,20 +46,7 @@ const convertCharactersToArray = (heroes) => {
  * }
  */
 const groupByPublisher = (heroes) => {
-  const publisher1 = []
-  const publisher2 = []
-  const sorted = []
-  for(let i =0; i < heroes.length; i++){
-   if(heroes[i].publisher === "DC Comics"){
-     publisher1.push(heroes[i])
-   }else{
-     publisher2.push(heroes[i])
-   }
-  }
-   sorted.push(publisher1)
-   sorted.push(publisher2)
-
- return sorted;
+  //Complete the function
 }
 
 /**
@@ -80,15 +63,7 @@ const groupByPublisher = (heroes) => {
  * ]
  */
 const getDCHeroesWithMoreThanOneCharacter = (heroes) => {
-  const multipleCharacters = []
-
-  for(let i = 0; i < heroes.length;i++ ){
-    let currentCharacters = heroes[i].characters.split(',')
-    if(currentCharacters.length >= 1) {
-      multipleCharacters.push(heroes[i])
-    }
-  }
-  return multipleCharacters;
+  //Complete the function
 }
 
 module.exports = {
