@@ -1,7 +1,8 @@
 # EBQ Technical 
 
 ### Instructions 
-    . Open the folder in your code editor
+    . Clone this repository and open in your code editor
     . Run npm install
-    . in index.js complete each function to the best of your abbilities 
+    . In index.js complete each function to the best of your abilities
+    . You may use any tools or resources they need to complete the test 
     . npm test to run testing 

@@ -1,11 +1,11 @@
-const superHeroes = require('./super-heroes.json');
+const heroes = require('./super-heroes.json');
 
 /**
- * Will find all of the marvel characters in the data and return them as an array
+ * Will find all of the DC characters in the data and return them as an array
  * @returns [
  *  {
  *    ...hero,
- *    publisher: 'Marvel'
+ *    publisher: 'DC'
  *  }
  * ]
  */

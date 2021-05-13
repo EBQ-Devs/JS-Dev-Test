@@ -5,7 +5,7 @@ const {
   getDCHeroes,
   getDCHeroesWithMoreThanOneCharacter,
   groupByPublisher,
-} = require('..index/index');
+} = require('../index.js');
 
 describe('Javascript questions tests', function() {
   describe('getDCHeroes()', function() {
